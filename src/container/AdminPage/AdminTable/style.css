@@ -1,0 +1,32 @@
+.cart_item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 'auto';
+    width: 100%;
+    flex-direction: column;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    background-color: white;
+  }
+.header_table{
+    font-weight: bold;
+    font-size: 13px;
+}
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    font-size: 10px;
+}
+
+  
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+.row_table:hover{
+    background-color: #5ec4cd;
+}

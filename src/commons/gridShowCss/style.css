@@ -1,0 +1,279 @@
+.full_height{
+    height: 100%;
+}
+.full_width{
+    width: 100%;
+}
+.flex_grow_1{
+    flex-grow: 1;
+}
+.color_white{
+    color: white;
+}
+.color_black{
+    color: black;
+}
+.grid {
+    width: 100vw;
+    display: block;
+    padding: 0;
+}
+.grid>.wide {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: -4px;
+    margin-right: -4px;
+}
+.col{
+    padding-top: 4px;
+    padding-right: 4px;
+}
+.m-0{
+    display: none;
+}
+.m-1{
+    flex: 0 0 8.33333%;
+    max-width: 8.33333%;
+}
+.m-2{
+    flex: 0 0 16.66667%;
+    max-width: 16.66667%;
+}
+.m-3{
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+.m-4{
+    flex: 0 0 33.33333%;
+    max-width: 33.33333%;
+}
+.m-5{
+    flex: 0 0 41.66667%;
+    max-width: 41.66667%;
+}
+.m-6{
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.m-7{
+    flex: 0 0 58.33333%;
+    max-width: 58.33333%;
+}
+.m-8{
+    flex: 0 0 66.66667%;
+    max-width: 66.66667%;
+}
+.m-9{
+    flex: 0 0 75%;
+    max-width: 75%;
+}
+.m-10{
+    flex: 0 0 83.33333%;
+    max-width: 83.33333%;
+}
+.m-11{
+    flex: 0 0 91.66667%;
+    max-width: 91.66667%;
+}
+.m-12{
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+/* PC >= nomal */
+@media screen and (min-width :1024px ){
+    .row {
+        margin-left: -12px;
+        margin-right: -12px;
+    }
+    .col {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+    .p-0{
+        display: none;
+    }
+    .p-1,
+    .p-2,
+    .p-3,
+    .p-4,
+    .p-5,
+    .p-6,
+    .p-7,
+    .p-8,
+    .p-9,
+    .p-10,
+    .p-11,
+    .p-12{
+        display: block;
+    }
+    .p-1{
+        flex: 0 0 8.33333%;
+        max-width: 8.33333%;
+    }
+    .p-2{
+        flex: 0 0 16.66667%;
+        max-width: 16.66667%;
+    }
+    .p-3{
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+    .p-4{
+        flex: 0 0 33.33333%;
+        max-width: 33.33333%;
+    }
+    .p-5{
+        flex: 0 0 41.66667%;
+        max-width: 41.66667%;
+    }
+    .p-6{
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .p-7{
+        flex: 0 0 58.33333%;
+        max-width: 58.33333%;
+    }
+    .p-8{
+        flex: 0 0 66.66667%;
+        max-width: 66.66667%;
+    }
+    .p-9{
+        flex: 0 0 75%;
+        max-width: 75%;
+    }
+    .p-10{
+        flex: 0 0 83.33333%;
+        max-width: 83.33333%;
+    }
+    .p-11{
+        flex: 0 0 91.66667%;
+        max-width: 91.66667%;
+    }
+    .p-12{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+@media screen and (max-width :767px ){
+    .layout_content{
+        margin-top: 40px;
+    }
+}
+/* PC HD  */
+@media screen and (min-width :1280px ){
+    .wide{
+        width: 1200px;
+    }
+}
+/* PC nomal  */
+@media screen and (min-width :1024px ) and (max-width:1279px){
+    .wide{
+        width: 980px;
+    }
+}
+/* Tablet  */
+@media screen and (min-width :740px ) and (max-width:1023px){
+    .wide{
+        width: 644px;
+    }
+    .row {
+        margin-left: -8px;
+        margin-right: -8px;
+    }
+    .col {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+    .t-0{
+        display: none;
+    }
+    .t-1,
+    .t-2,
+    .t-3,
+    .t-4,
+    .t-5,
+    .t-6,
+    .t-7,
+    .t-8,
+    .t-9,
+    .t-10,
+    .t-11,
+    .t-12{
+        display: block;
+    }
+    .t-1{
+        flex: 0 0 8.33333%;
+        max-width: 8.33333%;
+    }
+    .t-2{
+        flex: 0 0 16.66667%;
+        max-width: 16.66667%;
+    }
+    .t-3{
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+    .t-4{
+        flex: 0 0 33.33333%;
+        max-width: 33.33333%;
+    }
+    .t-5{
+        flex: 0 0 41.66667%;
+        max-width: 41.66667%;
+    }
+    .t-6{
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .t-7{
+        flex: 0 0 58.33333%;
+        max-width: 58.33333%;
+    }
+    .t-8{
+        flex: 0 0 66.66667%;
+        max-width: 66.66667%;
+    }
+    .t-9{
+        flex: 0 0 75%;
+        max-width: 75%;
+    }
+    .t-10{
+        flex: 0 0 83.33333%;
+        max-width: 83.33333%;
+    }
+    .t-11{
+        flex: 0 0 91.66667%;
+        max-width: 91.66667%;
+    }
+    .t-12{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+.test_green{
+    background-color: green;
+}
+.test_red{
+    background-color: red;
+}
+.test_yellow{
+    background-color: yellow;
+}
+.test_height{
+    height: 50px;
+}
+.dadwide{
+    background-color: rgb(240,242,245);
+    min-height: 100vh;
+    margin-top: 0;
+}
+.wide{
+    margin: auto;
+}

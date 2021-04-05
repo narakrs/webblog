@@ -1,0 +1,19 @@
+.headertype3{
+}
+.headertype3_layout{
+    padding: 20px 0px 20px 0px;
+    display: flex;
+    align-items: center;
+}
+.headertype3_layout_nav{
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    margin-right: 30px;
+}
+.headertype3_layout_nav:hover{
+    color: yellowgreen;
+}
+.flex_grow{
+    flex-grow: 1;
+}

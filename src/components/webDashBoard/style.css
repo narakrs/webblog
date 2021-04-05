@@ -1,0 +1,9 @@
+.nav_pc{
+    display: flex;
+    flex-grow: 1;
+}
+@media screen and (max-width :739px ){
+    .nav_pc{
+        display: none;
+    }
+}

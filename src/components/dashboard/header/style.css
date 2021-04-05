@@ -1,0 +1,38 @@
+.nav_check_input:checked ~ .layout_nav_mobile{
+   display: block;
+}
+.nav_check_input:checked ~ .nav_mobile{
+    transform: translateX(0%);
+    opacity: 1;
+ }
+.header{
+    display: flex;
+    align-items: center;
+    background-color: #2e94da;
+}
+.nav_link{
+    padding:10px 10px 10px 10px;
+    color: white;
+    font-size: 15px;
+    border-left: white solid 1px;
+    border-right: white solid 1px;
+    height: 'auto';
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+
+}
+.nav_link:hover{
+    color: white;
+    background-color: #00ced1;
+}
+.selected{
+    background-color:#00ced1;
+}
+@media screen and (max-width:1023px){
+}
+@media screen and (max-width:767px){
+    .header{
+        display: flex;
+    }
+}
