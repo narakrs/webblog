@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color:#99999999;
+  background-color: #99999999;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -36,18 +36,23 @@
     transform: rotate(360deg);
   }
 }
-.txt_strong{
+.txt_strong {
   font-weight: bolder;
 }
-.mgr_base{
- margin-right: 5px;
+.mgr_base {
+  margin-right: 5px;
 }
-.mgl_base{
+.mgl_base {
   margin-left: 5px;
 }
-.mgb_base{
+.mgb_base {
   margin-bottom: 5px;
 }
-.mgt_base{
+.mgt_base {
   margin-top: 5px;
+}
+.flex_center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

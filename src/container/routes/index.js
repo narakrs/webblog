@@ -1,4 +1,4 @@
-import { AdminHomePage, TaskBoardPage } from './../index';
+import * as Pages from './../index';
 
 export const ADMIN_ROUTES = [
   {
@@ -6,21 +6,21 @@ export const ADMIN_ROUTES = [
     path: '/admin/table',
     name: 'Quản lý table',
     exact: true,
-    component: AdminHomePage,
+    component: Pages.AdminHomePage,
   },
   {
     icon: 'fa fa-bank',
     path: '/admin/contact',
     name: 'Quản lý contact',
     exact: true,
-    component: TaskBoardPage,
+    component: Pages.TaskBoardPage,
   },
   {
     icon: 'fa fa-bomb',
     path: '/admin/frontend',
     name: 'Quản lý web',
     exact: true,
-    component: AdminHomePage,
+    component: Pages.AdminHomePage,
   },
 ];
 export const CONTACT_ROUTES = [
@@ -45,14 +45,14 @@ export const AUTHENTYCATION_ROUTES = [
     path: '/',
     name: 'Đăng nhập',
     exact: true,
-    component: AdminHomePage,
+    component: Pages.HomePage,
   },
   {
     icon: 'fa fa-sign-out',
     path: '/signup',
     name: 'Đăng ký',
     exact: true,
-    component: TaskBoardPage,
+    component: Pages.TaskBoardPage,
   },
 ];
 export const ADMIN_LINK = [
